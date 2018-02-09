@@ -1,0 +1,29 @@
+# Illustration of Kullback-Leibler
+
+
+## R function to compute it
+
+We will not know the true posterior analytically, but through an MCMC sample.
+The true posterior will be a combination of a likelihood Beta-binomial data, given beta prior
+
+#' @param y sample from true posterior distribution
+#'
+#' @param bmu fitted beta mean parameter for elicited distribution
+#'
+#' @param bprec fitted beta precision parameter for elicited distribution
+#' 
+kl <- function(y, bmu, bprec){
+    d <- density(y, from=0, to=1)
+    dfn <- with(d, approxfun(x = x, y = y))
+    fn <- function(x){
+        p <- dfn(x)
+        q <- dbeta(x, bmu*bprec, (1-bmu)*bprec)
+        p*(log(p) - log(q))
+    }
+    integrate(fn, 0, 1) # , subdivisions=1000, rel.tol=0.001
+}
+
+True 
+
+## Relation to bias and calibration
+

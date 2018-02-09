@@ -1,3 +1,13 @@
-## Projects with pages
+For an index of all Chris Jackson's projects, see [his Github front page](https://github.com/chjackson) 
 
-todo
+
+## Projects with web-based documentation
+
+[R package for the Focused Information Criterion](https://chjackson.github.io/fic)
+
+[Pokemon GO data visualisations](https://chjackson.github.io/pkmngor)
+
+
+## Miscellaneous notes 
+
+[Kullback-Leibler assessment of elicited distributions](kl.html).  Coming soon.
