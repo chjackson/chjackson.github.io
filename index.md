@@ -1,4 +1,4 @@
-For an index of all Chris Jackson's projects, see [his Github front page](https://github.com/chjackson) 
+For an index of all Chris Jackson's projects on GitHub, see [his GitHub front page](https://github.com/chjackson) 
 
 
 ## Projects with web-based documentation
