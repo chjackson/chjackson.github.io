@@ -7,6 +7,8 @@ For an index of all Chris Jackson's projects on GitHub, see [his GitHub front pa
 
 [msm: for multistate modelling of intermittently-observed data](https://chjackson.github.io/msm)
 
+[msmbayes: for Bayesian multistate modelling of intermittently-observed data](https://chjackson.github.io/msmbayes)
+
 [survextrap: for Bayesian parametric survival modelling and extrapolation](https://chjackson.github.io/survextrap)
 
 [voi: for Value of Information analysis](https://chjackson.github.io/voi)
